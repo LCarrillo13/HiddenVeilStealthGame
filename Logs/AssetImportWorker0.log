@@ -275,3 +275,135 @@ Received Import Request.
 Start importing Assets/HiddenVeilStealthGame/Scenes/GameScene.unity using Guid(cc75ce2678f154d4a9ca28ea64264130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13350a8e2bf13dc4e7494cba7020e7da') in 0.007263 seconds
   Import took 0.009252 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 231.469200 seconds.
+  path: Assets/HiddenVeilStealthGame/Prefabs/Player.prefab
+  artifactKey: Guid(a4e1f5770d5bab04e9563f1977843186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HiddenVeilStealthGame/Prefabs/Player.prefab using Guid(a4e1f5770d5bab04e9563f1977843186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63ae301d6bf2a977d4bb3d4d5d70b3ba') in 0.021944 seconds
+  Import took 0.024282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 289.689590 seconds.
+  path: Assets/HiddenVeilStealthGame/Scripts/Game Scripts/PlayerScript.cs
+  artifactKey: Guid(540ccb5e75f1d4f43ba6b33a5a5bc987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HiddenVeilStealthGame/Scripts/Game Scripts/PlayerScript.cs using Guid(540ccb5e75f1d4f43ba6b33a5a5bc987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd12270d2e7f19baab960516b4be77439') in 0.007763 seconds
+  Import took 0.010443 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001179 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.758 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.8 MB.
+System memory in use after: 58.3 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 1559.
+Total: 1.729100 ms (FindLiveObjects: 0.129700 ms CreateObjectMapping: 0.035600 ms MarkObjects: 1.279500 ms  DeleteObjects: 0.283100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.103151 seconds.
+  path: Assets/HiddenVeilStealthGame/Scripts/Game Scripts/GameManager.cs
+  artifactKey: Guid(6b9b8e0321d0b154eb6e3b84e775a790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HiddenVeilStealthGame/Scripts/Game Scripts/GameManager.cs using Guid(6b9b8e0321d0b154eb6e3b84e775a790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '269515261b530088d18efb156730faf2') in 0.008883 seconds
+  Import took 0.011590 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001272 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.737 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1113 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.9 MB.
+System memory in use after: 58.4 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 1562.
+Total: 1.667600 ms (FindLiveObjects: 0.138900 ms CreateObjectMapping: 0.037000 ms MarkObjects: 1.190100 ms  DeleteObjects: 0.300100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.130729 seconds.
+  path: Assets/HiddenVeilStealthGame/Scripts/Game Scripts/Level.cs
+  artifactKey: Guid(70fbac426027b8848ad0f81d6ebc905e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HiddenVeilStealthGame/Scripts/Game Scripts/Level.cs using Guid(70fbac426027b8848ad0f81d6ebc905e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5fb82b6e5792c575622c44e8185288d') in 0.010871 seconds
+  Import took 0.014403 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001297 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.723 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.0 MB.
+System memory in use after: 58.5 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 1565.
+Total: 1.580300 ms (FindLiveObjects: 0.108600 ms CreateObjectMapping: 0.028100 ms MarkObjects: 1.149500 ms  DeleteObjects: 0.292700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.493405 seconds.
+  path: Assets/HiddenVeilStealthGame/Scripts/Game Scripts/Enemy.cs
+  artifactKey: Guid(6a918220044f98844abba4e2a55315da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HiddenVeilStealthGame/Scripts/Game Scripts/Enemy.cs using Guid(6a918220044f98844abba4e2a55315da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d7462af80a75fbb2e6e93679363ea02') in 0.008491 seconds
+  Import took 0.010882 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002037 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.730 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.1 MB.
+System memory in use after: 58.6 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 1568.
+Total: 1.718200 ms (FindLiveObjects: 0.174500 ms CreateObjectMapping: 0.056100 ms MarkObjects: 1.187700 ms  DeleteObjects: 0.298400 ms)
+
