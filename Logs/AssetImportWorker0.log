@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.2/release' branch; Version is '2020.2.2f1 (068178b99f32) revision 426360'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.1165; Version 2009; 64bit' Language: 'en' Physical Memory: 16122 MB
+OS: 'Windows 10 Home; OS build 22000.318; Version 2009; 64bit' Language: 'en' Physical Memory: 16122 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ C:/Users/piehu/Documents/GitHub/HiddenVeilStealthGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56011
+53907
 Successfully changed project path to: C:/Users/piehu/Documents/GitHub/HiddenVeilStealthGame
 C:/Users/piehu/Documents/GitHub/HiddenVeilStealthGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 27.64 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 27.62 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
@@ -35,179 +35,83 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56516
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56960
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001633 seconds.
+Registered in 0.001195 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 28.94 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 28.09 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.715 seconds
+- Completed reload, in  1.738 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001563 seconds.
+Registered in 0.001403 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.964 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1488 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.4 MB.
+System memory in use after: 74.5 MB.
+
+Unloading 69 unused Assets to reduce memory usage. Loaded Objects now: 1928.
+Total: 2.709900 ms (FindLiveObjects: 0.297600 ms CreateObjectMapping: 0.114700 ms MarkObjects: 2.062200 ms  DeleteObjects: 0.233500 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/HiddenVeilStealthGame/Models/ninjawithrig.fbx
+  artifactKey: Guid(3b60d0a41e3223c4eb94d0c132702079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HiddenVeilStealthGame/Models/ninjawithrig.fbx using Guid(3b60d0a41e3223c4eb94d0c132702079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b82b12a182aa7d7232536f3b01cdf2b8') in 0.169714 seconds
+  Import took 0.172738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 146.206842 seconds.
+  path: Assets/HiddenVeilStealthGame/Models
+  artifactKey: Guid(f3460806c2db59847aee7ddf187e88fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HiddenVeilStealthGame/Models using Guid(f3460806c2db59847aee7ddf187e88fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca2a7e1233195bc534099176a52ae6f3') in 0.010030 seconds
+  Import took 0.017089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001187 seconds.
+  path: Assets/HiddenVeilStealthGame/Models
+  artifactKey: Guid(f3460806c2db59847aee7ddf187e88fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HiddenVeilStealthGame/Models using Guid(f3460806c2db59847aee7ddf187e88fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca2a7e1233195bc534099176a52ae6f3') in 0.003355 seconds
+  Import took 0.005797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.066018 seconds.
+  path: Assets/HiddenVeilStealthGame/Scripts/Game Scripts/Controller.cs
+  artifactKey: Guid(9c9fc4dd6cffc5b45a29be246a95f7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HiddenVeilStealthGame/Scripts/Game Scripts/Controller.cs using Guid(9c9fc4dd6cffc5b45a29be246a95f7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f755a41cc8810db01928f9983368b43e') in 0.012453 seconds
+  Import took 0.015283 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001168 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.870 seconds
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1487 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 74.4 MB.
-System memory in use after: 74.4 MB.
-
-Unloading 69 unused Assets to reduce memory usage. Loaded Objects now: 1927.
-Total: 2.857800 ms (FindLiveObjects: 0.199100 ms CreateObjectMapping: 0.162200 ms MarkObjects: 2.275500 ms  DeleteObjects: 0.219100 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/HiddenVeilStealthGame/Art/Bed Assessment.fbx
-  artifactKey: Guid(3497a5c50021d344796317392740cc6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HiddenVeilStealthGame/Art/Bed Assessment.fbx using Guid(3497a5c50021d344796317392740cc6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6791a2b4276dbc556ebc30500622f703') in 0.212614 seconds
-  Import took 0.215807 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 42.467204 seconds.
-  path: Assets/HiddenVeilStealthGame/Art/Bedside table.fbx
-  artifactKey: Guid(29672a52cd284064ab8c7b16e462cf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HiddenVeilStealthGame/Art/Bedside table.fbx using Guid(29672a52cd284064ab8c7b16e462cf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a095066381e381f0182886d1ac98b1ad') in 0.029938 seconds
-  Import took 0.032636 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 65.998330 seconds.
-  path: Assets/HiddenVeilStealthGame/Art/Ladder.fbx
-  artifactKey: Guid(34b4c9cd95d083b448c66c39e4b0a8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HiddenVeilStealthGame/Art/Ladder.fbx using Guid(34b4c9cd95d083b448c66c39e4b0a8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '408317f7f525e8af6e12c48d70c6fb79') in 0.026346 seconds
-  Import took 0.029937 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.017298 seconds.
-  path: Assets/HiddenVeilStealthGame/Art/Ladder.fbx
-  artifactKey: Guid(34b4c9cd95d083b448c66c39e4b0a8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HiddenVeilStealthGame/Art/Ladder.fbx using Guid(34b4c9cd95d083b448c66c39e4b0a8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '408317f7f525e8af6e12c48d70c6fb79') in 0.026145 seconds
-  Import took 0.029304 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 828.918348 seconds.
-  path: Assets/HiddenVeilStealthGame/Models/kunai.fbx
-  artifactKey: Guid(127e0972dc169f74fbbf3bbf80cc25fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HiddenVeilStealthGame/Models/kunai.fbx using Guid(127e0972dc169f74fbbf3bbf80cc25fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0064a57def94427e50a52b0ac5ac841f') in 0.024518 seconds
-  Import took 0.028222 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001329 seconds.
-  path: Assets/HiddenVeilStealthGame/Models/kunai.fbx
-  artifactKey: Guid(127e0972dc169f74fbbf3bbf80cc25fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HiddenVeilStealthGame/Models/kunai.fbx using Guid(127e0972dc169f74fbbf3bbf80cc25fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0064a57def94427e50a52b0ac5ac841f') in 0.018305 seconds
-  Import took 0.021257 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.348048 seconds.
-  path: Assets/HiddenVeilStealthGame/Models/kunai.fbx
-  artifactKey: Guid(127e0972dc169f74fbbf3bbf80cc25fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HiddenVeilStealthGame/Models/kunai.fbx using Guid(127e0972dc169f74fbbf3bbf80cc25fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb4b3ebdfdfb91f54511712db1a75c4e') in 0.020776 seconds
-  Import took 0.024393 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004108 seconds.
-  path: Assets/HiddenVeilStealthGame/Models/kunai.fbx
-  artifactKey: Guid(127e0972dc169f74fbbf3bbf80cc25fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HiddenVeilStealthGame/Models/kunai.fbx using Guid(127e0972dc169f74fbbf3bbf80cc25fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb4b3ebdfdfb91f54511712db1a75c4e') in 0.017285 seconds
-  Import took 0.019830 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.577568 seconds.
-  path: Assets/HiddenVeilStealthGame/Resources/Materials/Metal.mat
-  artifactKey: Guid(2db103a678aaad44bad194ba367e4192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HiddenVeilStealthGame/Resources/Materials/Metal.mat using Guid(2db103a678aaad44bad194ba367e4192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c55c5752e519d47695cbd1b13505d267') in 0.021320 seconds
-  Import took 0.024906 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 266.287264 seconds.
-  path: Assets/HiddenVeilStealthGame/Models/shiriken.fbx
-  artifactKey: Guid(0e8832f9ed9f77549b57fc7086b0d502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HiddenVeilStealthGame/Models/shiriken.fbx using Guid(0e8832f9ed9f77549b57fc7086b0d502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '325ae0aa500fe8f9fef16bd397f84efd') in 0.028999 seconds
-  Import took 0.032584 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.597516 seconds.
-  path: Assets/HiddenVeilStealthGame/Models/shiriken.fbx
-  artifactKey: Guid(0e8832f9ed9f77549b57fc7086b0d502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HiddenVeilStealthGame/Models/shiriken.fbx using Guid(0e8832f9ed9f77549b57fc7086b0d502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c6e0122e072a90dc3ecdd8c630a7f70') in 0.029388 seconds
-  Import took 0.032502 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.784666 seconds.
-  path: Assets/HiddenVeilStealthGame/Models/shiriken.fbx
-  artifactKey: Guid(0e8832f9ed9f77549b57fc7086b0d502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HiddenVeilStealthGame/Models/shiriken.fbx using Guid(0e8832f9ed9f77549b57fc7086b0d502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '653cf8272f0831fbc55c02cf81118bbc') in 0.027035 seconds
-  Import took 0.030246 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.315237 seconds.
-  path: Assets/HiddenVeilStealthGame/Models/shiriken.fbx
-  artifactKey: Guid(0e8832f9ed9f77549b57fc7086b0d502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HiddenVeilStealthGame/Models/shiriken.fbx using Guid(0e8832f9ed9f77549b57fc7086b0d502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f08b252eafbe275e5da3b07e336dc5de') in 0.025267 seconds
-  Import took 0.027825 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.960353 seconds.
-  path: Assets/HiddenVeilStealthGame/Models/shiriken.fbx
-  artifactKey: Guid(0e8832f9ed9f77549b57fc7086b0d502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HiddenVeilStealthGame/Models/shiriken.fbx using Guid(0e8832f9ed9f77549b57fc7086b0d502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4526a3f5fd8013bda4f7f9050cbcee5') in 0.028279 seconds
-  Import took 0.031391 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 296.823117 seconds.
-  path: Assets/HiddenVeilStealthGame/Scripts/Game Scripts/Player.cs
-  artifactKey: Guid(65010cdc28c59774fa7f4a343720d597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HiddenVeilStealthGame/Scripts/Game Scripts/Player.cs using Guid(65010cdc28c59774fa7f4a343720d597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5036bbb8e07cbe9afa067e30526dfbfe') in 0.011382 seconds
-  Import took 0.014959 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 39.170227 seconds.
-  path: Assets/HiddenVeilStealthGame/Scripts/Game Scripts/Controller.cs
-  artifactKey: Guid(9c9fc4dd6cffc5b45a29be246a95f7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HiddenVeilStealthGame/Scripts/Game Scripts/Controller.cs using Guid(9c9fc4dd6cffc5b45a29be246a95f7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74b1bfbed095af221b43e36752e3aa3f') in 0.012969 seconds
-  Import took 0.018357 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001874 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
@@ -221,40 +125,80 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.830 seconds
+- Completed reload, in  0.795 seconds
 Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1441 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.0 MB.
+System memory in use after: 86.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1974.
+Total: 1.915900 ms (FindLiveObjects: 0.130700 ms CreateObjectMapping: 0.039100 ms MarkObjects: 1.621100 ms  DeleteObjects: 0.123800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 330.220278 seconds.
+  path: Assets/HiddenVeilStealthGame/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HiddenVeilStealthGame/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9831e44e2a700a6e1119228b2d38e767') in 0.015958 seconds
+  Import took 0.018739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.487704 seconds.
+  path: Assets/HiddenVeilStealthGame/Scenes/GameScene.unity
+  artifactKey: Guid(cc75ce2678f154d4a9ca28ea64264130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HiddenVeilStealthGame/Scenes/GameScene.unity using Guid(cc75ce2678f154d4a9ca28ea64264130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9be380bf855b97dc558d6b0e30b28236') in 0.009633 seconds
+  Import took 0.012545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004737 seconds.
+  path: Assets/HiddenVeilStealthGame/Scenes/GameScene.unity
+  artifactKey: Guid(cc75ce2678f154d4a9ca28ea64264130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HiddenVeilStealthGame/Scenes/GameScene.unity using Guid(cc75ce2678f154d4a9ca28ea64264130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9be380bf855b97dc558d6b0e30b28236') in 0.003352 seconds
+  Import took 0.006625 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001097 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.266 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1441 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 75.1 MB.
-System memory in use after: 75.2 MB.
+System memory in use before: 86.8 MB.
+System memory in use after: 86.9 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1973.
-Total: 2.781200 ms (FindLiveObjects: 0.178000 ms CreateObjectMapping: 0.060300 ms MarkObjects: 2.379400 ms  DeleteObjects: 0.161500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 83.758723 seconds.
-  path: Assets/HiddenVeilStealthGame/Scripts/Game Scripts/Controller.cs
-  artifactKey: Guid(9c9fc4dd6cffc5b45a29be246a95f7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HiddenVeilStealthGame/Scripts/Game Scripts/Controller.cs using Guid(9c9fc4dd6cffc5b45a29be246a95f7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbf8f33eb96eba5df10c375ee99a4a25') in 0.006862 seconds
-  Import took 0.009974 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002353 seconds.
-  path: Assets/HiddenVeilStealthGame/Scripts/Game Scripts/Controller.cs
-  artifactKey: Guid(9c9fc4dd6cffc5b45a29be246a95f7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HiddenVeilStealthGame/Scripts/Game Scripts/Controller.cs using Guid(9c9fc4dd6cffc5b45a29be246a95f7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbf8f33eb96eba5df10c375ee99a4a25') in 0.002484 seconds
-  Import took 0.004747 seconds .
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1976.
+Total: 35.739600 ms (FindLiveObjects: 0.656500 ms CreateObjectMapping: 1.649800 ms MarkObjects: 33.142300 ms  DeleteObjects: 0.288500 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002103 seconds.
+Registered in 0.001556 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -269,24 +213,24 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.918 seconds
+- Completed reload, in  1.217 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1441 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 75.8 MB.
-System memory in use after: 75.9 MB.
+System memory in use before: 87.1 MB.
+System memory in use after: 87.1 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1975.
-Total: 1.941300 ms (FindLiveObjects: 0.156800 ms CreateObjectMapping: 0.046900 ms MarkObjects: 1.624200 ms  DeleteObjects: 0.112200 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1978.
+Total: 2.740300 ms (FindLiveObjects: 0.276100 ms CreateObjectMapping: 0.095000 ms MarkObjects: 2.163500 ms  DeleteObjects: 0.203500 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001438 seconds.
+Registered in 0.001394 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -301,24 +245,24 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.870 seconds
+- Completed reload, in  1.103 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1441 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.2 MB.
-System memory in use after: 76.2 MB.
+System memory in use before: 87.0 MB.
+System memory in use after: 87.0 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1977.
-Total: 1.856200 ms (FindLiveObjects: 0.157500 ms CreateObjectMapping: 0.050100 ms MarkObjects: 1.531300 ms  DeleteObjects: 0.116400 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1980.
+Total: 2.160200 ms (FindLiveObjects: 0.170200 ms CreateObjectMapping: 0.052000 ms MarkObjects: 1.813500 ms  DeleteObjects: 0.123100 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002114 seconds.
+Registered in 0.001265 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -333,56 +277,32 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.790 seconds
+- Completed reload, in  1.022 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1441 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.0 MB.
-System memory in use after: 76.1 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1979.
-Total: 2.463600 ms (FindLiveObjects: 0.241000 ms CreateObjectMapping: 0.083000 ms MarkObjects: 1.994800 ms  DeleteObjects: 0.142200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001445 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.840 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1441 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.2 MB.
-System memory in use after: 76.2 MB.
+System memory in use before: 87.1 MB.
+System memory in use after: 87.2 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1981.
-Total: 1.753300 ms (FindLiveObjects: 0.142400 ms CreateObjectMapping: 0.037000 ms MarkObjects: 1.463000 ms  DeleteObjects: 0.110100 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1982.
+Total: 3.279800 ms (FindLiveObjects: 0.187100 ms CreateObjectMapping: 0.060700 ms MarkObjects: 2.836700 ms  DeleteObjects: 0.192300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 371.556296 seconds.
+  path: Assets/HiddenVeilStealthGame/Scripts/Game Scripts/Player.cs
+  artifactKey: Guid(65010cdc28c59774fa7f4a343720d597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HiddenVeilStealthGame/Scripts/Game Scripts/Player.cs using Guid(65010cdc28c59774fa7f4a343720d597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10bf7f75d556e6c1c7636d8555a543a5') in 0.013232 seconds
+  Import took 0.016164 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001314 seconds.
+Registered in 0.001432 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -397,47 +317,26 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.756 seconds
+- Completed reload, in  1.200 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1441 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.1 MB.
-System memory in use after: 76.2 MB.
+System memory in use before: 87.1 MB.
+System memory in use after: 87.2 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1983.
-Total: 2.385200 ms (FindLiveObjects: 0.314700 ms CreateObjectMapping: 0.092400 ms MarkObjects: 1.859800 ms  DeleteObjects: 0.116200 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1984.
+Total: 2.448600 ms (FindLiveObjects: 0.292000 ms CreateObjectMapping: 0.075100 ms MarkObjects: 1.931200 ms  DeleteObjects: 0.148800 ms)
 
 ========================================================================
 Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001472 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.18 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.3 MB.
+System memory in use after: 58.4 MB.
 
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.837 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1441 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.2 MB.
-System memory in use after: 76.3 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1985.
-Total: 1.958400 ms (FindLiveObjects: 0.197600 ms CreateObjectMapping: 0.046700 ms MarkObjects: 1.593400 ms  DeleteObjects: 0.119300 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1984.
+Total: 2.644400 ms (FindLiveObjects: 0.261900 ms CreateObjectMapping: 0.066100 ms MarkObjects: 2.181000 ms  DeleteObjects: 0.133200 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
